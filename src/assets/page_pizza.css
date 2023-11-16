@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+body{
+	background-color: #ffffff;
+}
+
+img{
+	width: 40px;
+	height: 40px;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+}
+
+.logo{
+	width: 60px;
+	height: 60px;
+}
+
+.left_bar{
+	margin-left: 50px;
+	display: flex;
+}
+
+.left_bar>img{
+	margin-left: 20px;
+}
+
+.fone{
+	display: flex;
+	align-items: center;
+	font-size: 26px;
+}
+
+.fone>img{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 30px;
+	height: 30px;
+}
+
+.right_bar{
+	margin-right: 50px;
+}
+
+.right_bar>a{
+	text-decoration: none;
+	color: black;
+	font-size: 26px;
+	margin-left: 15px;
+}
+
+/* main */
+
+
+
+.infor {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.text_kar {
+	text-align: center;
+	font-size: 72px;
+	font-weight: bold;
+}
+
+.kartinki1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.kartinki2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.blocks {
+	background-color: white;
+	width: 250px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 100px;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blocks>img{
+	width: 150px;
+	height: 150px;
+}
+
+.text_top{
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+.desk{
+	margin-top: 10px;
+	text-align: center;
+	width: 200px;
+}
+
+.img{
+	margin-top: -50px;
+}
+
+.btn{
+	background-color: #F29857;
+	color: white;
+	width: 180px;
+	height: 40px;
+	font-size: 21px;
+	border-radius: 30px;
+	border: 0;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* footer */
+
+.footer{
+	width: 100%;
+	
+	height: 100px;
+	margin-top: 130px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.logos{
+	width: 100px;
+	height: 100px;
+}
+
+.dost{
+	font-size: 35px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.time_text{
+	font-size: 35px;
+	margin-top: 10px;
+}
+
+.image_footer>img{
+	width: 60px;
+	height: 60px;
+	padding-left: 50px;
+	margin-top: 20px;
+}
