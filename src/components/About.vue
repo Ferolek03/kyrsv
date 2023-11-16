@@ -3,7 +3,7 @@
     <h1>Оставьте отзыв о нас</h1>
     <div class="todo-form">
       <input type="text" v-model="newTodo" placeholder="Рады каждому отзыву">
-      <button @click="addTodo">Add</button>
+      <button @click="addTodo">Добавить</button>
     </div>
     <ul class="todo-list">
       <li v-for="(todo, index) in todos" :key="index">
