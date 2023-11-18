@@ -4,7 +4,7 @@
 }
 
 body{
-	background-color: #bbbbbb;
+	background-color: white;
 }
 
 img{
@@ -78,7 +78,7 @@ img{
 	height: 300px;
 	border-radius:35px ;
 	margin-left: 750px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 /* footer */
@@ -87,7 +87,7 @@ img{
 	width: 100%;
 	
 	height: 100px;
-	margin-top: 50px;
+	margin-top: 30px;
 	display: flex;
 	justify-content: space-around;
 }

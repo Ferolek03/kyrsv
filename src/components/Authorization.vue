@@ -2,15 +2,12 @@
   <div>
     <form @submit.prevent="submitForm">
       <div class="main">
-		<p class="text_top">Регистрация</p>
-		<p class="text_bot">Убедитесь, что вы правильно заполнили все поля</p>
-		<input type="text" placeholder="Ваше имя" id="name" v-model="name" required>
-		<input type="tel" placeholder="Ваш номер телефона"  id="number" v-model="number" required>
-		<input type="date" placeholder="Дата вашего рождения"  id="data" v-model="data" required>
-		<input type="text" placeholder="Ваша почта"  id="email" v-model="email" required>
-		<input type="text" placeholder="Пароль"  id="password" v-model="password" required>
-		<button type="submit" class="btn">Сохранить</button>
-	</div>
+        <p class="text_top">Вход</p>
+        <p class="text_bot">Введите данные, указанные при регистрации</p>
+        <input type="text" placeholder="Ваша почта">
+        <input type="text" placeholder="Пароль">
+        <button class="btn">Войти</button>
+      </div>
     </form>
   </div>
 </template>
@@ -19,9 +16,6 @@
 export default {
   data() {
     return {
-      name: '',
-      number: '',
-      data: '',
       email: '',
       password: ''
     };
@@ -35,10 +29,11 @@ export default {
 </script>
 
 
+
 <style scoped>
 form > div {
-  width: 500px;
-  height: 500px;
+  width: 420px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
